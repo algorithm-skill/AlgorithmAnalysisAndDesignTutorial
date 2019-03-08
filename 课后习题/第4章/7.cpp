@@ -1,3 +1,5 @@
+
+//https://wenku.baidu.com/view/a23c5a2b7375a417866f8f14.html
 /*
 分析：
 设str是输入字符串，m[i][j]表示str的第i个字符到第j个字符需要添加的最少括号数，regs[i][j]表示str的第i个字符到第j个字符经过添加m[i][j]个括号后所得的正则字符序列。
