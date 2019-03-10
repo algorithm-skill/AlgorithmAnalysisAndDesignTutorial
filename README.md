@@ -8,6 +8,7 @@
 
 ## 第3章
 > 1,2 题目比较简单，自己做
+
 [3 活动安排问题](https://github.com/algorithm-skill/AlgorithmAnalysisAndDesignTutorial/blob/master/%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/%E7%AC%AC3%E7%AB%A0/3%E6%B4%BB%E5%8A%A8%E5%AE%89%E6%8E%92.java)
 [4 区间覆盖问题(思路)](https://blog.csdn.net/chenguolinblog/article/details/7882316)
 [4 区间覆盖问题(思路)](https://www.cnblogs.com/Draymonder/p/7215230.html)
@@ -17,10 +18,10 @@
 [5 带有限期作业排序问题(代码)](https://blog.csdn.net/bajinbajin/article/details/13616059)
 [6 删数字游戏](https://blog.csdn.net/yuanxu716/article/details/72974373)
 [7 雷达安装问题](https://blog.csdn.net/cax1165/article/details/52563947)
-[]()
 
 ## 第4章
 > 1,2,3,4 是小题，没有找，自己做吧
+
 [5旅游城市](https://www.cnblogs.com/L-Arikes/p/5099270.html)
 [6字符串编辑距离](https://github.com/algorithm-skill/AlgorithmAnalysisAndDesignTutorial/blob/master/%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/%E7%AC%AC4%E7%AB%A0/6.c)
 [7正则括号序列(分析)](https://wenku.baidu.com/view/a23c5a2b7375a417866f8f14.html)
@@ -29,6 +30,7 @@
 
 ## 第5章
 > 第8题 宝石游戏没有找到答案
+
 [批处理作业调度](https://github.com/algorithm-skill/AlgorithmAnalysisAndDesignTutorial/blob/master/%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/%E7%AC%AC5%E7%AB%A0/1%E6%89%B9%E5%A4%84%E7%90%86%E4%BD%9C%E4%B8%9A%E8%B0%83%E5%BA%A6.java)
 [图着色问题](https://wenku.baidu.com/view/7193073c7fd5360cba1adb85.html)
 [连续邮资问题](https://github.com/algorithm-skill/AlgorithmAnalysisAndDesignTutorial/blob/master/%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/%E7%AC%AC5%E7%AB%A0/3%E8%BF%9E%E7%BB%AD%E9%82%AE%E8%B5%84%E9%97%AE%E9%A2%98.java)
