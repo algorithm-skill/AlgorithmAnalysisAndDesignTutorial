@@ -1,6 +1,6 @@
 // https://blog.csdn.net/q22232222/article/details/25060365
 
-package com.bluecup.org;
+
  
 import java.util.Arrays;
 import java.util.Scanner;
