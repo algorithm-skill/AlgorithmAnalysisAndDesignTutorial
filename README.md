@@ -1,7 +1,11 @@
 # AlgorithmAnalysisAndDesignTutorial
-> 《算法分析与设计教程》 秦明 阅读记录![目录](./目录.png)
+> 《算法分析与设计教程》 秦明 阅读记录
+>
+> ![目录](./目录.png)
 
-### 
+
+
+
 
 # TODO
 
@@ -230,6 +234,86 @@
 ### 蚁群算法
 
 ### 免疫算法
+
+
+
+
+
+## 知识点
+
+```C
+//快速排序
+#include <stdio.h>
+
+void swap(int arr[], int x, int y)
+{
+    int temp = arr[x];
+    arr[x] = arr[y];
+    arr[y] = temp;
+}
+
+int partition(int arr[], int low, int high)
+{
+    int pivot = arr[low];
+    while(low < high)
+    {
+        while((low < high) && (arr[high] > pivot))
+            high--;
+        swap(arr, low, high);
+        while((low < high) && (arr[low] < pivot))
+            low++;
+        swap(arr, low, high);
+    }
+    return low;
+}
+
+void quickSort(int arr[], int low, int high)
+{
+    if(low < high) {
+        int pivot = partition(arr, low, high);
+        quickSort(arr, low, pivot-1);
+        quickSort(arr, pivot+1, high);
+    }    
+}
+
+void main()
+{
+    int arr[] = {100, 300, 20, 99, 85, 66, 879, 489, 512, 31};
+    quickSort(arr, 0, 9);
+    for(int i = 0; i <= 9; i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+    
+}
+```
+
+
+
+```c
+//图的递归后序遍历
+
+#include <stdio.h>
+
+typedef struct {
+    int data;
+    struct BiTNode *lchild, *rchild;
+} BiTNode, *BiTree;
+
+void PostOrderTraverse(BiTree tree)
+{
+    if(tree == NULL)
+        return;
+    
+    PostOrderTraverse(tree->lchild);
+    PostOrderTraverse(tree->rchild);
+    printf("%d ", tree->data);
+}
+```
+
+
+
+
 
 ## Chapter 1
 
