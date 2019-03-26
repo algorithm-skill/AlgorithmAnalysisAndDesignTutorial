@@ -208,3 +208,10 @@ void PostOrderTraverse(BiTree tree)
 
 [7 海上开采站](https://blog.csdn.net/q22232222/article/details/25060365)
 
+
+
+## 参考教材
+
+《趣学算法》		   陈小玉
+
+《算法设计与分析》	王晓东
